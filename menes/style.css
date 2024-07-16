@@ -142,7 +142,7 @@ em {
 
 /* #toolbar {{{ */
 dialog > toolbar {
-    background: url(/web/20110701060433im_/http://cache.saurik.com/menes/toolbar.png) #6d84a2 repeat-x;
+    background: url(/menes/toolbar.png) #6d84a2 repeat-x;
     border-bottom: 1px solid #2d3642;
     height: 45px;
     padding: 10px;
@@ -175,13 +175,13 @@ dialog > toolbar > a.forward-button {
 }
 
 dialog > toolbar > a.back-button {
-    -webkit-border-image: url(/web/20110701060433im_/http://cache.saurik.com/menes/backButton.png) 0 8 0 14;
+    -webkit-border-image: url(/menes/backButton.png) 0 8 0 14;
     border-width: 0 8px 0 14px;
     float: left;
 }
 
 dialog > toolbar > a.forward-button {
-    -webkit-border-image: url(/web/20110701060433im_/http://cache.saurik.com/menes/toolButton.png) 0 5 0 5;
+    -webkit-border-image: url(/menes/toolButton.png) 0 5 0 5;
     border-width: 0 5px;
     float: right;
 }
@@ -238,7 +238,7 @@ panel > input[type="submit"] {
 }
 
 list > label {
-    background: #a7b3bc url(https://web.archive.org/web/20110701060433im_/cydia://uikit-image/UISectionListHeaderBackground.png);
+    background: #a7b3bc url(/cydia://uikit-image/UISectionListHeaderBackground.png);
     background-repeat: repeat-x no-repeat-y;
     margin-bottom: 0px;
     padding: 4px 15px 1px 15px;
@@ -338,12 +338,12 @@ div[tile] {
     width: 30px;
 }
 
-div[tile="app"]   { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/app.png);   }
-div[tile="call"]  { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/call.png);  }
-div[tile="map"]   { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/map.png);   }
-div[tile="media"] { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/media.png); }
-div[tile="music"] { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/video.png); }
-div[tile="site"]  { background-image: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/cydia/tile/site.png);  }
+div[tile="app"]   { background-image: url(http://cyd.atlnet.online/cydia/tile/app.png);   }
+div[tile="call"]  { background-image: url(http://cyd.atlnet.online/cydia/tile/call.png);  }
+div[tile="map"]   { background-image: url(http://cyd.atlnet.online/cydia/tile/map.png);   }
+div[tile="media"] { background-image: url(http://cyd.atlnet.online/cydia/tile/media.png); }
+div[tile="music"] { background-image: url(http://cyd.atlnet.online/cydia/tile/video.png); }
+div[tile="site"]  { background-image: url(http://cyd.atlnet.online/cydia/tile/site.png);  }
 
 fieldset > a[type="ad"] > div:first-child {
     background-repeat: no-repeat;
@@ -453,7 +453,7 @@ fieldset > a[href]:not([type="ad"]),
 fieldset > div > select,
 fieldset > div > div > select {
     background-repeat: no-repeat;
-    background-image: url(/web/20110701060433im_/http://cache.saurik.com/menes/chevron.png);
+    background-image: url(/menes/chevron.png);
 }
 
 /* Horizontal */
@@ -803,7 +803,7 @@ panel > iframe + iframe {
 .rating .back,
 .rating .fore,
 .rating .star {
-    background: url(https://web.archive.org/web/20110701060433im_/http://cache.saurik.com/crystal/16x16/actions/knewstuff.png);
+    background: url(http://cyd.altnet.online/crystal/16x16/actions/knewstuff.png);
     height: 16px;
 }
 
